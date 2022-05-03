@@ -45,7 +45,7 @@ class App extends Component {
         else{
             return(<Fragment>
                 <div className='tc '>
-                <h1 className='ttu f1'>RoboFriends</h1>
+                <h1 className='f1'>RoboFriends</h1>
                 <Searchbox searchchange={this.OnsearchChange} />
                 </div>
                 <Scroll>
